@@ -10,6 +10,9 @@ body{
 
 
 #App{
+
+  box-sizing: content-box;
+
   align-items: center;
   text-align: center;
 
@@ -17,6 +20,15 @@ body{
   flex-direction: column;
 
   gap: 3.3rem;
+
+  height: 100vh;
+  width: 60rem;
+
+  margin: 0 auto;
+  padding: 4.7rem 5.9rem;
+
+
+  background: hsl(0, 100%, 12%);
 }
 
 header{
