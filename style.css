@@ -6,6 +6,7 @@
 
 body{
   font-size: 1.6rem;
+  margin-top: 0;
 }
 
 
@@ -155,4 +156,52 @@ ul li {
 
   display: flex;
   place-content:center;
+}
+
+main {
+  max-width: 60rem;
+  margin: 3.4rem auto;
+}
+
+section{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+main  img{
+  position: absolute;
+  margin-top: 1.5rem;
+
+  border-radius: 4rem;
+  height: 18.9rem;
+  
+  position: absolute;
+  z-index: 1;
+}
+
+main a{
+  position: absolute;
+  right: -18rem;
+  top: 4rem;
+  z-index: 0;
+  padding: 1.5rem;
+  padding-left: 4rem;
+
+  border-radius: 0 20rem 20rem 0;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: start;
+  line-height: 16px;
+
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 54%);
+
+}
+
+a h4{
+  font-weight: 400;
+  font-size: 1.6rem;
 }
