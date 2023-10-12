@@ -4,4 +4,13 @@
 
 9h42  --->  9h45
 
-10h09 --->    -7'
+10h09 --->   11h20'
+
+
+
+11h33
+
+
+
+melhor n colocar margin top ou bottom nos elemtntos dentro de app 
+    pelo fato de eu desejar colocar a touchScreen height do site igual do celular da pessoa 100% este tamnanho da margin entre os elementos ficaram display flex direction colun e justify-contend space around 

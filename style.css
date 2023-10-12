@@ -22,12 +22,11 @@ body{
 
   gap: 3.3rem;
 
-  height: 100vh;
   width: 60rem;
+  height: 73.5rem;
 
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
-
 
   background: hsl(0, 100%, 12%);
 }
@@ -159,8 +158,9 @@ ul li {
 }
 
 main {
-  max-width: 60rem;
+  box-sizing: content-box;
   margin: 3.4rem auto;
+  width: 60rem;
 }
 
 section{
@@ -171,24 +171,30 @@ section{
 
 main  img{
   position: absolute;
+  left: 5rem;
   margin-top: 1.5rem;
 
-  border-radius: 4rem;
-  height: 18.9rem;
+  border-radius: 2rem;
+  height: 13rem;
   
-  position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
-main a{
+section:hover{ 
+  background-color: rgba(14, 14, 12, 0.539);
+}
+
+section a{
   position: absolute;
-  right: -18rem;
-  top: 4rem;
+  left: 25.5rem;
+  top: 3rem;
   z-index: 0;
-  padding: 1.5rem;
+  padding: 0.6rem;
   padding-left: 4rem;
 
-  border-radius: 0 20rem 20rem 0;
+  height: 8rem;
+
+  border-radius: 0 2rem 2rem 0;
 
   text-decoration: none;
   font-size: 2rem;
