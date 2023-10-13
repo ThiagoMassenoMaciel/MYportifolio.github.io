@@ -157,6 +157,10 @@ ul li {
   place-content:center;
 }
 
+a{
+ text-decoration: none;
+ color: hsl(0, 0%, 0%);
+}
 main {
   box-sizing: content-box;
   margin: 3.4rem auto;
