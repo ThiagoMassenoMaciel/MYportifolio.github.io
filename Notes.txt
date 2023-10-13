@@ -14,3 +14,12 @@ em 30 minutos fiz o html carreira e sobre
 
 melhor n colocar margin top ou bottom nos elemtntos dentro de app 
     pelo fato de eu desejar colocar a touchScreen height do site igual do celular da pessoa 100% este tamnanho da margin entre os elementos ficaram display flex direction colun e justify-contend space around 
+
+
+    em 30 minutos fiz o resto das paginas so o pedaço html
+    em 46 minutos fiz outras paginas e coloquei a sequencia da cor #00E6AB em cada uma das pages   skills, carreira , sobre , ...
+                                                                   #00E6AC
+                                                                   #00E6AD
+                                                                   #00E6AE
+                                                                   #00E6AF
+                                                                          

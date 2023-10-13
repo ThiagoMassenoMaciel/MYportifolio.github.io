@@ -143,7 +143,7 @@ ul li {
 
 .li{
 
-  text-align: center;
+  text-align: start;
   align-items: center;
 
   width: 23.9rem;
@@ -151,15 +151,21 @@ ul li {
 
   border-radius: 2rem;
 
-  background: yellow;
+  background-color: #00E6AB;
 
   display: flex;
+  flex-direction: column;
   place-content:center;
+
 }
 
 a{
  text-decoration: none;
  color: hsl(0, 0%, 0%);
+}
+
+section a{
+  background-color: #00E6AB;
 }
 main {
   box-sizing: content-box;
@@ -182,10 +188,6 @@ main  img{
   height: 13rem;
   
   z-index: 2;
-}
-
-section:hover{ 
-  background-color: rgba(14, 14, 12, 0.539);
 }
 
 section a{
