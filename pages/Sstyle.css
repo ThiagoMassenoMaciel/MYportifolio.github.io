@@ -61,6 +61,9 @@ main{
 
 }
 
+
+
+section:nth-child()
 section #Introduction{
   background-color: var(--cor-padrao);
   color: var(--cor-constraste-1);
@@ -68,13 +71,19 @@ section #Introduction{
   padding: 3rem;
   margin: 0 auto;
 
-  border-radius: 20rem;
+  height: 15.5rem;
+  width: 47.7rem;
+
+  border-radius: 4rem;
 }
 
 section #a{
   margin-top: 3.3rem;
   padding: 1rem;
-  width: 100% ;
+
+
+  height: 2rem;
+  width: 47.7rem;
 
   background-color: var(--cor-padrao);
   color: var(--cor-constraste-1);
@@ -92,10 +101,24 @@ section #a{
   color: var(--cor-constraste-1);
 }
 
-#social_midias{
+#social_midias, #Contatos{
 
   margin-top: 3.3rem;
   background-color: var(--cor-padrao);
+
+  width: 21.9rem;
+  height: 18.8rem;
+
+  border-radius: 4rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 3rem;
+
+  padding-left: 2rem;
+
 }
 
 #seePROJECTS{
@@ -108,11 +131,15 @@ section #a{
   margin: 1rem;
 }
 
-#Contatos{
-  background-color: var(--cor-padrao);
-}
-
 
 #Idiomas{
   background-color: var(--cor-padrao);
+
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: row;
+
+  height: 5rem;
+  width: 47.7rem;
 }
