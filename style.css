@@ -7,6 +7,7 @@
 body{
   font-size: 1.6rem;
   margin-top: 0;
+
 }
 
 
@@ -28,7 +29,7 @@ body{
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
 
-  background: hsl(0, 100%, 12%);
+  background-color: hsl(165, 94%, 86%);
 }
 
 header{
@@ -61,7 +62,7 @@ header img{
   height: 4rem;
 
   padding: 0;
-  background: red;
+  background:#00E6AB;
   
   font-size: 4.7rem;
   font-weight: 900;
@@ -79,7 +80,7 @@ header img{
   width: 38.5rem;
   height: 2.6rem;
 
-  background: red;
+  background:#00E6AB;
 
   font-size: 1.8rem;
   font-weight: 500;
@@ -117,7 +118,7 @@ ul li {
 
   border-radius: 2rem;
   
-  background: green;
+  background-color: #00E6AB;
 
   align-items: center;
   text-align: center;
@@ -140,6 +141,7 @@ ul li {
   gap: 1.5rem;
   align-items: center;
 }
+/*
 
 .li{
 
@@ -158,13 +160,14 @@ ul li {
   place-content:center;
 
 }
+*/
 
 a{
  text-decoration: none;
  color: hsl(0, 0%, 0%);
 }
 
-section a{
+main section a{
   background-color: #00E6AB;
 }
 main {
