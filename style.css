@@ -1,11 +1,15 @@
 
 :root{
   font-size: 62.5%;
+  --cor-padrao :  #00E6AB;
+  --cor-constraste-1:  hsl(0, 0%, 100%);
+  --cor-constraste-2:  hsl(165, 94%, 86%);
 
 }
 
 body{
   font-size: 1.6rem;
+  font-weight: 900;
   margin-top: 0;
 
 }
@@ -29,7 +33,7 @@ body{
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
 
-  background-color: hsl(165, 94%, 86%);
+  background-color:var(--cor-constraste-1);
 }
 
 header{
@@ -41,6 +45,8 @@ header{
 }
 
 header img{
+
+  border: 2px solid var(--cor-padrao);
 
   margin-bottom: 0 aut;
   border-radius: 50%;
@@ -61,8 +67,12 @@ header img{
   width: 48.2rem;
   height: 4rem;
 
-  padding: 0;
-  background:#00E6AB;
+  border-radius: 2rem;
+
+  padding: 1rem;
+
+  background:var(--cor-padrao);
+  color: var(--cor-constraste-1);
   
   font-size: 4.7rem;
   font-weight: 900;
@@ -75,12 +85,15 @@ header img{
 
 .Description h3{
 
+  border-radius: 2rem;
+  
   margin: 0 auto;
 
   width: 38.5rem;
   height: 2.6rem;
 
-  background:#00E6AB;
+  background:var(--cor-padrao);
+  color: var(--cor-constraste-1);
 
   font-size: 1.8rem;
   font-weight: 500;
@@ -118,7 +131,7 @@ ul li {
 
   border-radius: 2rem;
   
-  background-color: #00E6AB;
+  background-color:var(--cor-padrao);
 
   align-items: center;
   text-align: center;
@@ -164,11 +177,11 @@ ul li {
 
 a{
  text-decoration: none;
- color: hsl(0, 0%, 0%);
+ color: var(--cor-constraste-1);
 }
 
 main section a{
-  background-color: #00E6AB;
+  background-color: var(--cor-padrao);
 }
 main {
   box-sizing: content-box;
@@ -187,6 +200,7 @@ main  img{
   left: 5rem;
   margin-top: 1.5rem;
 
+  border: 2px solid var(--cor-padrao);
   border-radius: 2rem;
   height: 13rem;
   
@@ -196,7 +210,7 @@ main  img{
 section a{
   position: absolute;
   left: 25.5rem;
-  top: 3rem;
+  top: 3.5rem;
   z-index: 0;
   padding: 0.6rem;
   padding-left: 4rem;
@@ -211,9 +225,7 @@ section a{
   text-align: start;
   line-height: 16px;
 
-  color: hsl(0, 0%, 0%);
-  background-color: hsl(0, 0%, 54%);
-
+  color:var(--cor-constraste-1);
 }
 
 a h4{
