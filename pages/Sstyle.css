@@ -1,3 +1,118 @@
+:root{
+  font-size: 62.5%;
+
+  --cor-padrao :  #00E6AB;
+  --cor-constraste-1:  hsl(0, 0%, 100%);
+  --cor-constraste-2:  hsl(165, 94%, 86%);
+
+}
+
 body{
-  background: rgb(0, 230, 171)
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+#App{
+  display: flex;
+  flex-direction: column;
+
+  gap: 3.3rem;
+
+  width: 60rem;
+  height: 73.5rem;
+
+  margin: 0 auto;
+  padding: 4.7rem 5.9rem;
+}
+
+header{
+  color: var(--cor-constraste-1);
+  background-color: var(--cor-padrao) ;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+
+  border-radius: 0 0 20rem 0;
+}
+
+header a{
+  padding: 1rem;
+  width: 3rem;
+
+  margin-left: 1rem;
+  background-color: var(--cor-constraste-1);
+  color: var(--cor-padrao);
+
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+header h1{
+  margin-left: 18rem;
+}
+
+main{
+  margin-top: 3.3rem;
+
+}
+
+section #Introduction{
+  background-color: var(--cor-padrao);
+  color: var(--cor-constraste-1);
+
+  padding: 3rem;
+  margin: 0 auto;
+
+  border-radius: 20rem;
+}
+
+section #a{
+  margin-top: 3.3rem;
+  padding: 1rem;
+  width: 100% ;
+
+  background-color: var(--cor-padrao);
+  color: var(--cor-constraste-1);
+
+  border-radius: 20rem;
+
+  align-items: center;
+  text-align: center;
+
+
+}
+
+#a a {
+  text-decoration: none;
+  color: var(--cor-constraste-1);
+}
+
+#social_midias{
+
+  margin-top: 3.3rem;
+  background-color: var(--cor-padrao);
+}
+
+#seePROJECTS{
+  background-color: var(--cor-constraste-1);
+  color: var(--cor-padrao);
+
+  height: 1rem;
+  width: 10.5rem;
+
+  margin: 1rem;
+}
+
+#Contatos{
+  background-color: var(--cor-padrao);
+}
+
+
+#Idiomas{
+  background-color: var(--cor-padrao);
 }
