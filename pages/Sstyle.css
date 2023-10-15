@@ -7,9 +7,22 @@
 
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   font-size: 1.6rem;
+  
+}
+main , header , section, body{
+  margin-top: 0;
+  font-weight: 900;
+}
+
+body{
+  padding: 0;
 }
 
 #App{
@@ -23,6 +36,7 @@ body{
 
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
+  padding-top: 0;
 }
 
 header{
@@ -36,34 +50,42 @@ header{
   align-items: center;
 
   border-radius: 0 0 20rem 0;
+
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 header a{
   padding: 1rem;
-  width: 3rem;
+  width: 8rem;
 
   margin-left: 1rem;
   background-color: var(--cor-constraste-1);
   color: var(--cor-padrao);
 
-  border-radius: 50%;
+  border-radius: 2rem ;
   font-size: 2rem;
   font-weight: 900;
   text-decoration: none;
 }
 
+header > a > i{
+  color: var(--cor-padrao);
+}
+
 header h1{
-  margin-left: 18rem;
+  margin-left: 10rem;
 }
 
-main{
-  margin-top: 3.3rem;
+section{
+  display: flex;
+  flex-direction: column;
 
+  gap: 3.3rem;
+
+  color: var(--cor-constraste-1);
 }
 
-
-
-section:nth-child()
 section #Introduction{
   background-color: var(--cor-padrao);
   color: var(--cor-constraste-1);
@@ -78,11 +100,9 @@ section #Introduction{
 }
 
 section #a{
-  margin-top: 3.3rem;
   padding: 1rem;
 
-
-  height: 2rem;
+  height: 4rem;
   width: 47.7rem;
 
   background-color: var(--cor-padrao);
@@ -101,12 +121,29 @@ section #a{
   color: var(--cor-constraste-1);
 }
 
+#sideBYside{
+  display: flex;
+  flex-direction: row;
+
+  gap: 0.6rem;
+}
+
+
+#sideBYside a{
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--cor-constraste-1);
+}
+
+#seePROJECTS a{
+  color: var(--cor-padrao);
+}
+
 #social_midias, #Contatos{
 
-  margin-top: 3.3rem;
   background-color: var(--cor-padrao);
 
-  width: 21.9rem;
+  width: 24rem;
   height: 18.8rem;
 
   border-radius: 4rem;
@@ -115,31 +152,76 @@ section #a{
 
   flex-direction: column;
 
-  padding: 3rem;
+  padding: 2rem;
 
   padding-left: 2rem;
 
+  line-height: 2rem;
+
+}
+#social_midias{
+width: 20rem;
+}
+
+#Contatos{
+  width: 26rem;
+}
+
+#Contatos #span1, #Contatos #span4{
+  font-size: 1.2;
+  font-weight: 300;
+}
+
+#Contatos #span4 i{
+  background-color: var(--cor-constraste-1);
+  color: var(--cor-padrao);
+  padding: 2px;
+
+  font-weight: 700;
+
+  border-radius: 4px;
 }
 
 #seePROJECTS{
   background-color: var(--cor-constraste-1);
   color: var(--cor-padrao);
 
-  height: 1rem;
-  width: 10.5rem;
+  height: 4rem;
+  width: 14rem;
 
+  border-radius:  2rem;
+
+  padding: 1rem;
+  
   margin: 1rem;
+
+  display: flex;
+  place-items:center;
 }
 
 
 #Idiomas{
   background-color: var(--cor-padrao);
 
-  padding: 3rem;
+  padding: 1.5rem;
+  text-align: center;
 
+  border-radius: 4rem;
+
+
+  height: 13rem;
+  width: 47.7rem;
+}
+
+#Flex-row{
   display: flex;
   flex-direction: row;
+  gap: 5rem;
 
+  justify-content: space-evenly;
+
+}
+#Idiomas img{
+  width: 5rem;
   height: 5rem;
-  width: 47.7rem;
 }

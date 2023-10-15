@@ -26,4 +26,5 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
 14 octuber 
 	criado nova branch Design_2
 	em 1h40 minutos  fiz o pedaço sobre e algumas cores 
+    em 2h terminei finalmente toda a pagina SOBRE 
                                                                           
