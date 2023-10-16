@@ -98,10 +98,9 @@ section{
 
 section h2{
   text-align: start;
-
-  background-color: var(--cor-constraste-2);
 }
 
-section p{
-  background-color: var(--cor-constraste-2);
+section >*{
+  text-align: left;
+  tex
 }
