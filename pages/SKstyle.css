@@ -78,6 +78,8 @@ header h1{
 }
 
 main{
+
+  margin-top: 3.3rem;
   color: var(--cor-constraste-1);
 }
 
@@ -139,3 +141,4 @@ section #textoSHORT{
   z-index: 3;
   background-color: var(--cor-padrao);
 }
+
