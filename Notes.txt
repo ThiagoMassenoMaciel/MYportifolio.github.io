@@ -62,3 +62,24 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
     PJ- 3    FORM EVENTO       : https://thiagomassenomaciel.github.io/Projeto03-front-end.github.io/
     PJ- 2     TREINAR          : https://thiagomassenomaciel.github.io/Projeto-02-front-end.github.io/ 
     PJ- 1     SIMPLE PAGE      : https://thiagomassenomaciel.github.io/Projetos-front-end.github.io/
+
+20 octuber 
+    2H end PAGE MYprojects DONE
+	  ERROR NÃO TER EXIBITO AS CAIXINHAS DOs PROJETOs:
+		    Pelo fato de não ter definido o tamanho height da tag section mesmo com elementos dentro desta tag causou o bug . E 			também a direção do flow. E a direção do fluxo estava em linha , sendo que deveria estar em column
+
+    ✅
+      section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+    🚫
+      section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+      }
