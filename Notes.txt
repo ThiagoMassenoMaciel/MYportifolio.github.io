@@ -47,3 +47,18 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
         🚫 padding-inline-start : 0px;
     10' end PAGE skills DONE 
     1h30 'muitos bugs na página de meus projetos'
+
+19 octuber
+    2h
+    
+    PJ-11    SPA UNIVERSE      : https://thiagomassenomaciel.github.io/
+    PJ-10    FOCUS TIMER       : https://thiagomassenomaciel.github.io/Projeto-10--front-end.github.io/Version%201.0%20-%20No%20coments/index.html
+    PJ- 9    Calculadorade IMC : https://thiagomassenomaciel.github.io/Projeto-09-V-1.3--clean-front-end.github.io/    
+    PJ- 8    BISCOITO DA SORTE : https://thiagomassenomaciel.github.io/Projeto-08-front-end.github.io/
+    PJ- 7    GUESSING GAME     : https://thiagomassenomaciel.github.io/Projeto-07-front-end.github.io/Version-1-1-5/index.html
+    PJ- 6	 ANIMATION GALERIA : https://thiagomassenomaciel.github.io/Projeto-06--front-end.github.io/Vers%C3%A3o-01/animation/index.html
+    PJ- 5    AS GALAXIAS       : https://thiagomassenomaciel.github.io/Projeto-05-Front-End.github.io/vers%C3%A3o2/index.html
+    PJ- 4    RESPONSIVO        : https://thiagomassenomaciel.github.io/Projeto-04-Front-end.github.io/
+    PJ- 3    FORM EVENTO       : https://thiagomassenomaciel.github.io/Projeto03-front-end.github.io/
+    PJ- 2     TREINAR          : https://thiagomassenomaciel.github.io/Projeto-02-front-end.github.io/ 
+    PJ- 1     SIMPLE PAGE      : https://thiagomassenomaciel.github.io/Projetos-front-end.github.io/

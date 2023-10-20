@@ -87,10 +87,10 @@ body{
 }
 
 header img{
-
+  background-color: var(--cor-constraste-1);
   border: 2px solid var(--cor-padrao);
 
-  margin-bottom: 0 aut;
+  margin-bottom: 0 auto;
   border-radius: 50%;
 
   width: 21.2rem;
@@ -136,7 +136,7 @@ main  img{
 }
 
 section a{
-  position: relative;
+  position: absolute;
 
   top: 20rem;
   left: 1.8rem;
@@ -148,7 +148,7 @@ section a{
   padding: 2rem;
   padding-left: 4rem;
   padding-bottom: 0px;
-  height: 20em;
+  height: 12em;
   width: 30rem;
 
   border-radius: 2rem;  
