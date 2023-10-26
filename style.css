@@ -26,17 +26,14 @@ body{
 
   gap: 3.3rem;
 
-<<<<<<< HEAD
   max-width: 60rem;
 
   width: 100vw;
   height: min-content;
-=======
 
   max-width: 60rem;
   width: 100vw;
   height: 73.5rem;
->>>>>>> d4f9a897af443ce271f37946097dae349af79278
 
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
@@ -56,7 +53,7 @@ header img{
 
   border: 2px solid var(--cor-padrao);
 
-  margin-bottom: 0 auto;
+  margin: 0 auto;
   border-radius: 50%;
 
   width: 21.2rem;
@@ -246,19 +243,26 @@ a h4{
   font-weight: 400;
   font-size: 1.6rem;
 }
-
+/*-------------------------------------------------Smartphones max-width  425px ----------------------------------------------------*/
 @media (max-width: 42.6rem){
+
+  body{
+    width: 1;
+    margin: 0 auto;
+  }
   #App{
     width: 25rem;
     padding: 0.7rem 0.9rem;
-    height: 60rem;
+    height: min-content;
 
     text-align: center;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    place-items: center;
+    
+    align-content: space-around;
+    align-items: center;
 
     margin: 0 auto;
 
@@ -387,5 +391,113 @@ a h4{
     font-size: 1rem;
   }
 }
-=======
->>>>>>> d4f9a897af443ce271f37946097dae349af79278
+/*-------------------------------------------------tablets  width  768px ----------------------------------------------------*/
+@media (min-width: 76.7rem){
+  #App{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 60rem;
+  
+    width: 100vw;
+
+    max-width: 60rem;
+    width: 100vw;
+    height: 73.5rem;
+
+    margin: 0 auto;
+  }
+  
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header img{
+    margin: 0 auto;
+
+    width: 21.2rem;
+    height: 21.2rem;
+  
+  }
+  
+  .Description h1{
+    width: 48.2rem;
+    height: 4rem;
+  
+    font-size: 4.7rem;
+
+  }
+  
+  .Description h3{ 
+ 
+    width: 38.5rem;
+    height: 2.6rem;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  nav{
+    width: 50rem;
+    height: 15rem;
+
+  }
+  
+  ul li {
+    
+    margin-bottom:  1.5rem;
+    width: 23.9rem;
+    height: 3.9rem;
+
+    display: flex;
+    place-content:center;
+  
+    flex-direction: column;
+  
+  }
+  
+  
+  #part1, #part2{
+    display: flex;
+    flex-direction: row;
+  }
+  /*
+  
+  .li{
+  
+    text-align: start;
+    align-items: center;
+  
+    width: 23.9rem;
+    height: 3.9rem;
+  
+    border-radius: 2rem;
+  
+    background-color: #00E6AB;
+  
+    display: flex;
+    flex-direction: column;
+    place-content:center;
+  
+  }
+  */
+
+  main {
+    width: 60rem;
+  }
+  
+  section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  main  img{
+    height: 13rem;
+  }
+  
+  section a{
+    height: 8rem;
+  }
+}
