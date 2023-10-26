@@ -108,3 +108,6 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
         ▶️Laptop     1024px
         ▶️Laptop L   1440px
         ▶️4k         2560px
+
+    O jeito que ajeitei foi  SMARTPHONES coloquei o minimo tela no dev tools  320 e terminei até todos html com limite de pixel 320px aparecerem normal com rem 
+    reconsiderei todas as telas menores que 425px    ----> limite máximo da tela smartphone 
