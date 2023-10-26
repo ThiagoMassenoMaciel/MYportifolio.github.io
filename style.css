@@ -26,10 +26,17 @@ body{
 
   gap: 3.3rem;
 
+<<<<<<< HEAD
   max-width: 60rem;
 
   width: 100vw;
   height: min-content;
+=======
+
+  max-width: 60rem;
+  width: 100vw;
+  height: 73.5rem;
+>>>>>>> d4f9a897af443ce271f37946097dae349af79278
 
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
@@ -239,6 +246,7 @@ a h4{
   font-weight: 400;
   font-size: 1.6rem;
 }
+<<<<<<< HEAD
 
 @media (max-width: 42.6rem){
   #App{
@@ -378,3 +386,5 @@ a h4{
     font-size: 1rem;
   }
 }
+=======
+>>>>>>> d4f9a897af443ce271f37946097dae349af79278
