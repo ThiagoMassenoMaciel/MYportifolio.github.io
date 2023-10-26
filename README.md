@@ -5,8 +5,10 @@
         ▶️MOBILE S 320px 
         ▶️MOBILE M 375px
         ▶️MOBILE L 425px
-   7' ajeitando outras  coisas 
-   26' 💻Construido e concertado o suporte para dispositivo responsivo  maior ou do mesmo tamanho que um tablet  ▶️ > 767px :
+      
+      7' ajeitando outras  coisas 
+      
+      26' 💻Construido e concertado o suporte para dispositivo responsivo  maior ou do mesmo tamanho que um tablet  ▶️ > 767px :
         ▶️Tablet     768px 
         ▶️Laptop     1024px
         ▶️Laptop L   1440px
