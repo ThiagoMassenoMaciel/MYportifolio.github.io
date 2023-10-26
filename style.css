@@ -246,7 +246,6 @@ a h4{
   font-weight: 400;
   font-size: 1.6rem;
 }
-<<<<<<< HEAD
 
 @media (max-width: 42.6rem){
   #App{
@@ -260,6 +259,8 @@ a h4{
     flex-direction: column;
     justify-content: center;
     place-items: center;
+
+    margin: 0 auto;
 
   }
 
