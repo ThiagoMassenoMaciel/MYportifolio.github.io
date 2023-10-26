@@ -11,8 +11,8 @@ body{
   font-size: 1.6rem;
   font-weight: 900;
   margin-top: 0;
+  margin: 0 auto;
 }
-
 
 #App{
 
@@ -26,8 +26,10 @@ body{
 
   gap: 3.3rem;
 
-  width: 60rem;
-  height: 73.5rem;
+  max-width: 60rem;
+
+  width: 100vw;
+  height: min-content;
 
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
@@ -47,7 +49,7 @@ header img{
 
   border: 2px solid var(--cor-padrao);
 
-  margin-bottom: 0 aut;
+  margin-bottom: 0 auto;
   border-radius: 50%;
 
   width: 21.2rem;
@@ -181,8 +183,8 @@ ul li {
 */
 
 a{
- text-decoration: none;
- color: var(--cor-constraste-1);
+text-decoration: none;
+color: var(--cor-constraste-1);
 }
 
 main section a{
@@ -236,4 +238,143 @@ section a{
 a h4{
   font-weight: 400;
   font-size: 1.6rem;
+}
+
+@media (max-width: 42.6rem){
+  #App{
+    width: 25rem;
+    padding: 0.7rem 0.9rem;
+    height: 60rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+
+  }
+
+  header{
+    width: 20rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  header img{
+    margin: 0 auto;
+    
+    width: 18rem;
+    height: 18rem;
+
+    text-align: center;
+  }
+
+  .Description{
+    align-items: center;
+  
+    margin: 0 auto;
+  
+  }
+  
+  .Description h1{
+    width: 18rem;
+    height: 8rem;
+
+    border-radius: 2rem;
+  
+    padding: 1rem;
+
+    font-size: 3rem;
+
+    margin: 1rem auto;
+  }
+  
+  .Description h3{
+
+    width: 18rem;
+    height: 4rem;
+  
+    font-size: 1.6rem;
+  }
+  
+  nav, nav ul{
+    width: 20rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  ul li {
+
+    width: 20rem;
+    height: 3.9rem;
+
+    margin: 0.4rem;
+
+    text-align: center;
+    
+  }
+
+  #part1, #part2{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin: 0.4rem;
+
+    text-align: center;
+  }
+
+  main{
+    min-width: 20rem;
+    max-width: 42.5rem;
+    margin: 3.4rem auto;
+
+    text-align: center;
+
+  }
+
+  #block{
+    position: absolute;
+    top: 9rem;
+    left: -3.5rem;
+    margin: 0 auto;
+    width: 20rem;
+    height: 20rem;
+
+    text-align: center;
+  }
+
+  
+  main  img{
+    position: relative;
+    left: 2rem;
+    height: 8rem; /* de 13 virou 8*/
+  }
+  section a{
+    position: absolute;
+    left: 17rem;
+    top: 1.5rem;
+    z-index: 0;
+    padding: 0.2rem;
+    padding-left: 3rem;
+  
+    height: 8rem;
+    width: 8rem;
+  
+    border-radius: 0 2rem 2rem 0;
+  
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: start;
+    line-height: 12px;
+  
+    color:var(--cor-constraste-1);
+  }
+
+  a h4{
+    font-weight: 400;
+    font-size: 1rem;
+  }
 }

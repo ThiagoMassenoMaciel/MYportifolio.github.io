@@ -87,3 +87,18 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
     falta ajeitar os testos dos projetos e colocar icones de java script
     ajeitar as corez 
     ajeitar o projeto de galeria montando exemplos de animations  (cronogramas todo dia)
+
+
+25 octuber 
+    o tamanho da width tem que ser de 100vw pois para todo dispositivo seja celular sansumg ou iphone vai ser o 100% da awidth  viewport de cada celular 
+    ✅ ir em cada  file css  e colocar no seletor #App      max-width : 60rem;   width: 100vw;
+
+
+26 octuber 
+    bug na descrição dos projetos na pagina meus projetos 
+    🚫Colocou a descrição em relação a imagem do projeto mudando a margin errado -tem que colocar como um sendo o pai relativo e outro como filho absoluto
+
+    💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L :
+        ▶️MOBILE S 320px 
+        ▶️MOBILE M 375px
+        ▶️MOBILE L 425px

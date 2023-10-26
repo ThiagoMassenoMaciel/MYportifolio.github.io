@@ -30,8 +30,10 @@ body{
 
   gap: 3.3rem;
 
-  width: 60rem;
+  max-width: 60rem;
+  width: 100vw;
   height:895rem;
+
   margin: 0 auto;
   padding: 4.7rem 5.9rem;
   padding-top: 0;

@@ -30,7 +30,8 @@ body{
   display: flex;
   flex-direction: column;
 
-  width: 60rem;
+  max-width: 60rem;
+  width: 100vw;
   height: 73.5rem;
 
   margin: 0 auto;
