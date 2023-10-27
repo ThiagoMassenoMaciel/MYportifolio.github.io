@@ -98,7 +98,7 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
     bug na descrição dos projetos na pagina meus projetos 
     🚫Colocou a descrição em relação a imagem do projeto mudando a margin errado -tem que colocar como um sendo o pai relativo e outro como filho absoluto
 
-   2H 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L :
+   2H 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da pagina HOME:
         ▶️MOBILE S 320px 
         ▶️MOBILE M 375px
         ▶️MOBILE L 425px
@@ -108,6 +108,39 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
         ▶️Laptop     1024px
         ▶️Laptop L   1440px
         ▶️4k         2560px
+        .
 
     O jeito que ajeitei foi  SMARTPHONES coloquei o minimo tela no dev tools  320 e terminei até todos html com limite de pixel 320px aparecerem normal com rem 
     reconsiderei todas as telas menores que 425px    ----> limite máximo da tela smartphone 
+
+27 octuber
+
+   1h40' 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da página SOBRE:
+           ▶️MOBILE S 320px 
+           ▶️MOBILE M 375px
+           ▶️MOBILE L 425px
+    
+
+    DESAFIO : Centralizar o nome título da pagina SOBRE 
+    problema : conflito com o buton e h1 texto dentro do header 
+
+    A maneira com centralizei o título da página foi permitindo que o elemento h1 ocupasse toda header e o botão de voltar na position fixed , com os dois elementos cada seu z-index diferente h1 < a 
+
+    DESAFIO  Fazer um designer do icone de gmail dentro da div Contatos 
+    problema : Não coube junto com o nome de endereço do gmail aquele icone de GMAIL 
+
+    A maneira como resolvi foi colocando outra palavra inline junto com o icone e normalizar a quebra de padrão , ja que toda esta div Contatos sempre tem na ordem   o Icone acompanhado do texto 
+    REGRA DO DESIGN 
+
+    div#Contatos 
+
+    usei simetria E COLUNAS E LINHAS DE ACORDO COM O PADRÃO QUE EU VINHA IMPLEMENTANDO 
+
+        COLUNA 1       COLUNA 2 
+LINHA 1    ICONE         TEXTO 
+LINHA 2     RESTO DO TEXTO 
+
+LINHA 3   ICONE          TEXTO
+
+LINHA 4   ICONE          TEXTO 
+LINHA 5   RESTO DO TEXTO    

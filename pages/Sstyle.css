@@ -68,6 +68,11 @@ header a{
   font-size: 2rem;
   font-weight: 900;
   text-decoration: none;
+
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 2;
 }
 
 header > a > i{
@@ -75,10 +80,14 @@ header > a > i{
 }
 
 header h1{
-  margin-left: 10rem;
+  position: relative;
+  margin: 0 auto;
+  padding: 2rem;
+  z-index: 1;
 }
 
 section{
+  margin-top: 3.3rem;
   display: flex;
   flex-direction: column;
 
@@ -225,4 +234,200 @@ width: 20rem;
 #Idiomas img{
   width: 5rem;
   height: 5rem;
+}
+
+
+
+@media (max-width: 42.5rem){
+  #App{
+    gap: 2.3rem;
+  
+    max-width: 42.5rem;
+    width: 100%;
+    min-width: 32rem;
+    
+    height: 73.5rem;
+
+    padding: 0rem 1.7rem; /* abaixei 4 rem*/
+  }
+/*Escolhi tirar o header de dentro da div#App */
+  header{
+    gap: 0px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+    justify-content:space-evenly;
+
+  }
+
+  header h1{
+    padding: 0;
+    width: 8rem;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  header a {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    z-index: 2;
+  }
+  
+  section{
+    gap: 2.3rem;
+    color: var(--cor-constraste-1);
+  }
+  
+  section #Introduction{
+    padding: 1rem;
+    padding-top: 0.2rem;
+    margin: 0 auto;
+
+    height: 14rem;
+    width: 28rem;
+  }
+
+
+  section #a{
+    padding: 1rem;
+    margin: 0 auto;
+  
+    height: 4rem;
+    width: 28rem;
+  
+    background-color: var(--cor-padrao);
+    color: var(--cor-constraste-1);
+  
+    border-radius: 10rem;
+  }
+
+  
+  #sideBYside{
+    display: flex;
+    flex-direction: column;
+  
+    gap: 2.3rem;
+  }
+  
+  #sideBYside a{
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--cor-constraste-1);
+  }
+  
+/*
+  #seePROJECTS{
+    width: 20rem;
+  }
+*/
+
+  #seePROJECTS a{
+    color: var(--cor-padrao);
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  
+
+  #social_midias, #Contatos{
+  
+    background-color: var(--cor-padrao);
+  
+    width: 28rem;
+    height: 18.8rem;
+  
+    border-radius: 4rem;
+  
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+  
+    padding: 2rem;
+  
+    padding-left: 2rem;
+  
+    line-height: 2rem;
+
+    margin: 0 auto;
+  
+  }
+
+  #Contatos #span1, #Contatos #span4{
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  #Contatos i{
+    font-size: 2rem;
+    width: 100%;
+    background-color: var(--cor-constraste-1);
+    color: var(--cor-padrao);
+    padding: 2px;
+  
+    font-weight: 300;
+  
+    border-radius: 4px;
+  }
+  
+  #Contatos .bi-envelope-at, #Contatos #spaN{
+    width: 2.5rem;
+    padding: 3px;
+
+  }
+
+  #Contatos #inline{
+    display: inline;
+  }
+
+  #Contatos #inline #spaN{
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  #seePROJECTS{
+    background-color: var(--cor-constraste-1);
+    color: var(--cor-padrao);
+  
+    height: 4rem;
+    width: 22rem;
+  
+    border-radius:  2rem;
+  
+    padding: 1rem;
+    
+    margin: 1rem;
+
+  }
+          /*    */
+  
+  #Idiomas{
+    background-color: var(--cor-padrao);
+  
+    padding: 0.5rem;
+    text-align: center;
+  
+    border-radius: 4rem;
+  
+    margin: 0 auto;
+    height: 13rem;
+    width: 28rem;
+  }
+  
+  #Flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  
+    justify-content: space-evenly;
+  
+  }
+  #Idiomas img{
+    width: 5rem;
+    height: 5rem;
+  }
+  
 }
