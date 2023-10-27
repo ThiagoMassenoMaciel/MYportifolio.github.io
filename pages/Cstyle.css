@@ -149,9 +149,7 @@ section p span{
     box-sizing: border-box;
   }
 
-  main section{
-    margin-top: 2.3rem;
-  }
+
   header{
     gap: 0px;
     margin-bottom: 2rem;
@@ -178,32 +176,29 @@ section p span{
     z-index: 2;
   }
   
+  section{
+    gap: 2.3rem;
+  }
 
+  main section{
+    margin-top: 2.3rem;
+  }
 
-header h1{
-  margin: 0 auto;
-  padding: 0;
-}
+  main section img{
+    z-index: 1;
 
-section{
-  gap: 2.3rem;
-}
+    border: 2px solid #00E6AB;
+    border-radius: 4rem;
 
-main section img{
-  z-index: 1;
+    width: 10.6rem;
+    width: 10.6rem;  /* diminui 7 rem*/
 
-  border: 2px solid #00E6AB;
-  border-radius: 4rem;
+    margin-bottom: -6rem;
+  }
 
-  width: 10.6rem;
-  width: 10.6rem;  /* diminui 7 rem*/
+  article h5{
+    width: 100%;
 
-  margin-bottom: -6rem;
-}
-
-article h5{
-  width: 100%;
-
-}
+  }
 
 }

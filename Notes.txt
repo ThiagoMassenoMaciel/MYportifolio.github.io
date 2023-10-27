@@ -154,3 +154,9 @@ LINHA 5   RESTO DO TEXTO
            ▶️MOBILE L 425px
 
     dinimui um tamanho do botão voltar para ficar com width 60rem
+
+
+    20' 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da página EDUCAÇÃO:
+           ▶️MOBILE S 320px 
+           ▶️MOBILE M 375px
+           ▶️MOBILE L 425px
