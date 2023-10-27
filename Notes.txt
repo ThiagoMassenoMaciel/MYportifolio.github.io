@@ -193,3 +193,5 @@ LINHA 5   RESTO DO TEXTO
                 text-align: center;
                 place-items: center;
             }
+
+Ainda falta fazer o VERSÃO DESKTOP  e colocar um negócio para baixar o curriculo assim que a pessoa entrar no site 
