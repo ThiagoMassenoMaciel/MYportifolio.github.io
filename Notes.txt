@@ -172,3 +172,24 @@ LINHA 5   RESTO DO TEXTO
            ▶️MOBILE S 320px 
            ▶️MOBILE M 375px
            ▶️MOBILE L 425px
+
+    3h3' 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da página MEUS PROJETOS:
+           ▶️MOBILE S 320px 
+           ▶️MOBILE M 375px
+           ▶️MOBILE L 425px
+
+    DESAFIO : deixar os projetos centralizados e de um jeito quando clicasse no link da nav aparecesse so 1 projeto
+    PROBLEMA : mudando a screen tablet para smartphones a imagem se afastava muito do link a 
+        coloquei toda img dentro do a link , ajustei como um sendo filho : absolute e outro sendo o pai : relative 
+
+    PROBLEMA : alinhar todos os links centralizado em todas as screeans    mobile , tablet , laptop ... 
+        e dentro da div pai deste link coloquei isso, e foi o que centralizou tudo  
+            section {                     
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+                align-items:center;
+                text-align: center;
+                place-items: center;
+            }

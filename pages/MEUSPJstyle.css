@@ -30,34 +30,36 @@ body{
 
   gap: 3.3rem;
 
+  text-align: center;
+
   max-width: 60rem;
   width: 100vw;
   height:895rem;
 
   margin: 0 auto;
-  padding: 4.7rem 5.9rem;
+
   padding-top: 0;
 }
 
-#App header{
+header{
   color: var(--cor-constraste-1);
   background-color: var(--cor-padrao) ;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   text-align: start;
   align-items: center;
 
-  border-radius: 0 0 10rem 10rem;
+  border-radius:10rem;
 
-  margin-bottom: 0;
+  margin-bottom: 1px;
   margin-top: 0;
 }
 
-#App header a{
+header a{
   padding: 1rem;
-  width: 8rem;
+  width: 6rem;
 
   margin-left: 1rem;
   color: var(--cor-constraste-1);
@@ -72,58 +74,26 @@ body{
   justify-content: center;
 }
 
-#App header > a > i{
+header > a > i{
   background-color: var(--cor-constraste-1);
   color: var(--cor-padrao);
   padding: 1rem;
 
   border-radius: 1.5rem ;
-  width: 8rem;
+  width: 6rem;
 
   font-size: 2.4rem;
-
-
 }
 
-header a{
-  padding: 1rem;
-  width: 8rem;
-
-  margin-left: 1rem;
-  background-color: var(--cor-constraste-1);
-  color: var(--cor-padrao);
-
-  border-radius: 2rem ;
+header h1{
   font-size: 2rem;
-  font-weight: 900;
-  text-decoration: none;
-  text-align: center;
 }
 
-#App header{
-  align-items: center;
+nav{
+  position: sticky;
+  margin: 0 auto;
+  width: 40rem;
 
-  display: flex;
-  flex-direction: column;
-
-  margin-bottom: -3rem;
-}
-
-header img{
-  background-color: var(--cor-constraste-1);
-  color: var(--cor-constraste-1);
-  border: 2px solid var(--cor-padrao);
-
-  margin-bottom: 0 auto;
-  border-radius: 50%;
-
-  width: 21.2rem;
-  height: 21.2rem;
-
-}
-
-#header_links{
-  color: red;
 }
 
 a{
@@ -138,38 +108,46 @@ main {
 }
 
 section{
+  margin-top: -10rem;
   position: relative;
+
   display: flex;
   flex-direction: column;
 
   justify-content: center;
+  align-items:center;
+  text-align: center;
+  place-items: center;
 
-  height: 100vh;
+  height: 50rem;
+
+  margin: 0 auto;
 
 }
+
 
 #p1{
   margin-top: -5rem;
 }
 
-main  img{
+section  img{
   position: absolute;
-  left: 5rem;
+  top: -12rem;
+  left: 2.7rem;
+
+  margin: 0 auto;
+  height: 14rem;
+
+  z-index: 2;
 
   border: 2px solid var(--cor-padrao);
   border-radius: 2rem;
-  height: 20rem;
-  
-  z-index: 2;
 }
 
 section > a{
-  position: absolute;
-
-  top: 46rem;
-  left: 1.8rem;
-
-  margin-left: 6rem;
+  position: relative;
+  top: 0px;
+  left: 0px; 
   margin-bottom: -20rem;
   
   z-index: 0;
@@ -195,16 +173,6 @@ section > a{
 }
 
 
-
-a h4{
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-a #TechUsed{
-  display: flex;
-  gap: 8rem;
-}
 ul{
   background-color: var(--cor-padrao);
 
@@ -224,7 +192,7 @@ nav{
   position: sticky;
   top: 0.1rem;
 
-  margin: 0rem;
+  margin: 0 auto;
   background-color:var(--cor-padrao);
   width: 48.2rem; 
   padding: 0.8rem;
@@ -248,4 +216,67 @@ li a {
   color: var(--cor-padrao);
 
   border-radius: 1.5rem;
+}
+
+
+a h4{
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+a #TechUsed{
+  display: flex;
+  gap: 8rem;
+}
+
+
+@media (max-width: 42.5rem){
+  
+  #App{
+    gap: 2.3rem;
+
+    max-width: 42.5rem;
+    margin: 0 auto;
+    padding: 1.7rem 2rem;
+    padding-top: 0;
+  }
+
+  header{
+    margin-top: 0;
+    margin: 0 auto;
+    margin-bottom: 1px;
+
+    padding: 0;
+    
+  }
+
+  header h1{
+    font-size: 2rem;
+  }
+
+  nav{
+    position: sticky;
+    margin: 0 auto;
+
+    width: 80vw;
+    height: 6.7rem;
+
+  }
+
+  main {
+    margin: 0 auto;
+    width: 28rem;
+    height: 900rem;
+  }
+
+  section {
+    position: relative;
+
+    width: 28rem;
+    height: 100vh;
+
+  }
+
+
+ 
 }
