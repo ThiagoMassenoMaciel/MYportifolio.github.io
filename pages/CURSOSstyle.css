@@ -39,7 +39,6 @@ body{
   padding: 4.7rem 5.9rem;
   padding-top: 0;
 }
-
 header{
   color: var(--cor-constraste-1);
   background-color: var(--cor-padrao) ;
@@ -50,15 +49,18 @@ header{
   text-align: center;
   align-items: center;
 
-  border-radius: 0 0 20rem 0;
+  border-radius: 0 0 0 20rem ;
 
-  margin-bottom: 0;
+  margin-bottom: 2.3rem;
   margin-top: 0;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 header a{
   padding: 1rem;
-  width: 8rem;
+  width: 6rem;
 
   margin-left: 1rem;
   background-color: var(--cor-constraste-1);
@@ -68,20 +70,25 @@ header a{
   font-size: 2rem;
   font-weight: 900;
   text-decoration: none;
+
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 2;
+}
+
+header > a > i{
+  color: var(--cor-padrao)
+}
+
+header h1{
+  margin: 0 auto;
 }
 
 main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-header > a > i{
-  color: var(--cor-padrao);
-}
-
-header h1{
-  margin-left: 10rem;
 }
 
 section{
@@ -139,4 +146,49 @@ main{
 
   gap: 3.3rem;
 
+}
+
+
+
+@media (max-width: 42.5rem){
+
+  #App{
+    max-width: 42.5rem;
+    width: 28.6rem;
+    padding:0px; /* diminui 4.2 de cada */
+    padding-top: 2.3rem;
+    box-sizing: border-box;
+  }
+
+
+  header{
+    gap: 0px;
+    margin-bottom: 2.3rem;
+    padding: 2rem 0px;
+    justify-content:space-evenly;
+
+  }
+
+  header h1{
+    padding: 0;
+    width: 9.5rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  header a {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    z-index: 2;
+  }
+  
+  section{
+    gap: 0px;
+  }
+
+  main section{
+    margin-top: 0px;
+  }
 }
