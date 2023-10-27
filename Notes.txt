@@ -166,3 +166,9 @@ LINHA 5   RESTO DO TEXTO
            ▶️MOBILE S 320px 
            ▶️MOBILE M 375px
            ▶️MOBILE L 425px
+
+
+    43' 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da página SKILLS:
+           ▶️MOBILE S 320px 
+           ▶️MOBILE M 375px
+           ▶️MOBILE L 425px
