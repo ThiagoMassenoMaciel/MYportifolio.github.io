@@ -58,7 +58,7 @@ header{
 
 header a{
   padding: 1rem;
-  width: 8rem;
+  width: 6rem;
 
   margin-left: 1rem;
   background-color: var(--cor-constraste-1);
@@ -253,7 +253,6 @@ width: 20rem;
 /*Escolhi tirar o header de dentro da div#App */
   header{
     gap: 0px;
-    margin-bottom: 2rem;
     padding: 2rem;
 
     justify-content:space-evenly;

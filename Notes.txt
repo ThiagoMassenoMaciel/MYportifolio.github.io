@@ -91,7 +91,9 @@ melhor n colocar margin top ou bottom nos elemtntos dentro de app
 
 25 octuber 
     o tamanho da width tem que ser de 100vw pois para todo dispositivo seja celular sansumg ou iphone vai ser o 100% da awidth  viewport de cada celular 
-    ✅ ir em cada  file css  e colocar no seletor #App      max-width : 60rem;   width: 100vw;
+    ✅ ir em cada  file css  e colocar no seletor #App      max-width : 60rem
+    
+    ;   width: 100vw;
 
 
 26 octuber 
@@ -144,3 +146,11 @@ LINHA 3   ICONE          TEXTO
 
 LINHA 4   ICONE          TEXTO 
 LINHA 5   RESTO DO TEXTO    
+
+
+    40' 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L da página CARREIRA:
+           ▶️MOBILE S 320px 
+           ▶️MOBILE M 375px
+           ▶️MOBILE L 425px
+
+    dinimui um tamanho do botão voltar para ficar com width 60rem

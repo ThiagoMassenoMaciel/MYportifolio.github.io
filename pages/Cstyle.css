@@ -58,26 +58,30 @@ header{
 }
 
 header a{
-  padding: 0px;
-  
+  padding: 1rem;
+  width: 6rem;
+
   margin-left: 1rem;
-  margin-bottom: 0;
-  border-radius: 1rem ;
+  background-color: var(--cor-constraste-1);
+  color: var(--cor-padrao);
+
+  border-radius: 2rem ;
   font-size: 2rem;
   font-weight: 900;
   text-decoration: none;
+
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 2;
 }
 
 header > a > i{
-  color: var(--cor-constraste-1);
-  font-size: 4rem;
-  padding: 0;
-  
-  margin-bottom: 0;
+  color: var(--cor-padrao)
 }
 
 header h1{
-  margin-left: 10rem;
+  margin: 0 auto;
 }
 
 section{
@@ -133,4 +137,73 @@ main section p{
 section p span{
   color:var(--cor-constraste-3);
   padding: 1px;
+}
+
+@media (max-width: 42.5rem){
+
+  #App{
+    max-width: 42.5rem;
+    width: 28.6rem;
+    padding:0px; /* diminui 4.2 de cada */
+    padding-top: 2.3rem;
+    box-sizing: border-box;
+  }
+
+  main section{
+    margin-top: 2.3rem;
+  }
+  header{
+    gap: 0px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+
+    justify-content:space-evenly;
+
+  }
+
+  header h1{
+    padding: 0;
+    width: 11.8rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  header a {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    z-index: 2;
+  }
+  
+
+
+header h1{
+  margin: 0 auto;
+  padding: 0;
+}
+
+section{
+  gap: 2.3rem;
+}
+
+main section img{
+  z-index: 1;
+
+  border: 2px solid #00E6AB;
+  border-radius: 4rem;
+
+  width: 10.6rem;
+  width: 10.6rem;  /* diminui 7 rem*/
+
+  margin-bottom: -6rem;
+}
+
+article h5{
+  width: 100%;
+
+}
+
 }
