@@ -501,3 +501,73 @@ a h4{
     height: 8rem;
   }
 }
+
+
+
+
+@media (min-width: 1023px){
+
+  #App{
+    max-width: 1000px;
+    padding: 0;
+  }
+
+  #App nav {
+    width: 800px;
+    height: fit-content;
+
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1.3rem;
+    width: 800px;
+
+    margin: 0 auto;
+
+  }
+
+  #part1 , #part2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+  }
+
+  ul li{
+    width: 12rem;
+  }
+
+
+  main{
+    width: 60rem;
+    max-width: 60rem;
+    min-width: 60rem;
+    height: 60rem;
+  }
+
+  section {
+    height: 60rem;
+    width: 60rem;
+  }
+  #block{
+    height: 60rem;
+    width: 60rem;
+  }
+
+  #block  img{
+    height: 15rem;
+    position: absolute;
+    top: -4rem;
+    left: -25rem;
+  }
+
+  #block a{
+    position: relative;
+    left: 15rem;
+    height: 8rem;
+    width: 5rem;
+  }
+}

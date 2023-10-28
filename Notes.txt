@@ -195,3 +195,66 @@ LINHA 5   RESTO DO TEXTO
             }
 
 Ainda falta fazer o VERSÃO DESKTOP  e colocar um negócio para baixar o curriculo assim que a pessoa entrar no site 
+FALTA PINTAR de cor igual do meu curriculo 
+
+
+     1h40' 💻Construido e concertado o suporte para dispositivo responsivo  Laptop ▶️ ▶️L da página HOME:
+           ▶️Laptop   1024px
+           ▶️Laptop L 1440px
+           ▶️      4K 2560px
+
+    DESAFIO - EU N CONSIGO COLOCAR OS LINKS UM DO LADO DO OUTRO MESMO COM O tamanho reduzido de 239px para 100px cada li
+    
+    PROBLEMA : eu não tinha especificado o seletor ul dentro da tag nav e nem colocado a width maior 
+        Solução 
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            width: 1000px;
+        }
+
+    DESAFIO : Semantica desorganizada - pois o App com sua width menor que seus elementos filhos
+
+    PROBLEMA : não conseguia mudar a width do #App na nova @media pois na @media passada tinha o padrão de 600px 
+        Pelo fato de não ter colocado o max-width desta nova @media herdou o valor da media anterior logo 
+        - não conseguia alterar o valor dela 
+            
+            🚫 #App{
+                    width: 1000px;
+                }
+            
+            ✅ #App{
+                    max-width: 1000px;
+                }   
+
+    DESAFIO : Centralizar o elemento nav
+        PROBLEMA : A width do nav tinha o mesmo tamanho de #App , logo por isso n dava para centralizar 
+        
+        
+        defini sua width igual  a do App , logo decidi diminuir o width da nav até que conseguissse funcionar so o jeito básico de centralizar o nav dentro da largura de #App 
+
+
+
+    DESAFIO : colocar o link descrição da img do projeto ao lado da imagem - 
+    
+    
+    nunca por distanciamento de margem (pois quando mudar a width da tela vai ficar se afastando sempre , ou tomando o espaço )mas sim pela função de um ser absoluto do outro relativo e dai fazer o distanciamento basiado no top , left , right , bottom .
+
+
+    COLOCA UM DENTRO DO OUTRO E faz o resto 
+                    img absoluto em relação ao seu pai A relative 
+    PROBLEMA : o link ficou estranho depois que coloquei a imagem como um elemento dele 
+    PROBLEMA :  O LINK ficou estranho também pois seus pais ( caixas onde ela esta - tem um tamanho menor que ela )
+    BUG de colar o link com a img do PROJETO ------quase feito
+    
+    
+    
+    BUG DO LINK colar img e link SEM MEXER margin 
+        igual a 
+    IMAGEM DE BUG DO LINK a tentativa de colar a imagem com o link pro site de um jeito que não dependa da margin da screen 
+
+            é porcausa dos elementos dentro do link ficarem maior do que o box model do main 
+            ✅  main{
+                    width: 50rem;
+                    height: 50rem;
+                }
