@@ -284,9 +284,21 @@ LINHA 5   RESTO DO TEXTO
 
 
 
+
+17 DEZ 
+    TIREI TODOS ATIUBUTO CSS position e tentar posicionar os elementos usando display flex
+
+    meu fit contyente n funciona direito e de´pois de eu aterar o valor dentro do meu css
+    aparece no dev tools como se eu n tivesse alterado 
+
+    foram 3h seguidas e ainda n terminei de ajeitar completamente o DEVTOOLS e o Live Server é horrivel
+    tem vezes que eles n mostra o que eu alterei
    ' DESAFIO : descobrir o pq do elemento img não esta correspondendo ao que é definido no seu css ? 
 
+    SO AJEITEI O MOBILE 
+        TABLET E DESKTOP CONTINUA BUGADOS
 
+        QUE PARADA DIFICIL MEW
 
    
 Ainda falta fazer o VERSÃO DESKTOP  e colocar um negócio para baixar o curriculo assim que a pessoa entrar no site 

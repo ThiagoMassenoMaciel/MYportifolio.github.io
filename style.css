@@ -131,7 +131,6 @@ nav ul{
   align-items: center;
   padding-inline-start : 0;
 
-
 }
 
 ul li {
@@ -165,83 +164,106 @@ ul li {
   gap: 1.5rem;
   align-items: center;
 }
-/*
-
-.li{
-
-  text-align: start;
-  align-items: center;
-
-  width: 23.9rem;
-  height: 3.9rem;
-
-  border-radius: 2rem;
-
-  background-color: #00E6AB;
-
-  display: flex;
-  flex-direction: column;
-  place-content:center;
-
-}
-*/
 
 a{
-text-decoration: none;
-color: var(--cor-constraste-1);
-}
+  text-decoration: none;
+  color: var(--cor-constraste-1);
 
-main section a{
-  background-color: var(--cor-padrao);
 }
 main {
   box-sizing: content-box;
-  margin: 3.4rem auto;
+  margin: 0 ;
   width: 60rem;
+  padding: 0;
 }
 
+
 section{
-  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+#details{
+  height: 25rem;
+  background-color: var(--cor-padrao);
+}
+
+
+#details a{
+  background-color: var(--cor-padrao);
+  height: 20rem;
+}
+
+#block{
   display: flex;
   flex-direction: row;
 }
 
-main  img{
-  position: absolute;
-  left: 5rem;
-  margin-top: 1.5rem;
-
-  border: 2px solid var(--cor-padrao);
-  border-radius: 2rem;
-  height: 13rem;
-  
-  z-index: 2;
+section #block a{
+  margin: 0 auto;
+  height: 25rem;
+  width: 20rem;
 }
 
-section a{
-  position: absolute;
-  left: 25.5rem;
-  top: 3.5rem;
-  z-index: 0;
-  padding: 0.6rem;
-  padding-left: 4rem;
+header  img, #block  img{
+  border: 2px solid var(--cor-padrao);
+  height: 13rem;
+}
 
-  height: 8rem;
-
-  border-radius: 0 2rem 2rem 0;
-
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 900;
-  text-align: start;
-  line-height: 16px;
-
-  color:var(--cor-constraste-1);
+header  img{
+  border-radius: 50%;
+} 
+#block  img{
+  border-radius: 2rem;
 }
 
 a h4{
   font-weight: 400;
   font-size: 1.6rem;
+}
+/*-------------------------------------------------Smartphones max-width  320px ----------------------------------------------------*/
+@media (max-width: 32rem){
+
+  body{
+    font-size: 1.2rem;
+  }
+  
+  nav{
+    height: fit-content;
+  }
+
+  #App,  main,  section, section  #block{
+    width: 20rem ;
+  }
+
+  main{
+    margin: 0;
+  }
+
+  #block{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #block img{
+    width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+    z-index: 2;
+
+    margin-bottom: -2rem;
+  }
+
+
+  #details{
+    margin: 0 auto;
+    padding-top: 3rem;
+    border-radius: 0 0 2rem 2rem;
+    height: 20rem;
+    width: 20rem;
+  }
 }
 /*-------------------------------------------------Smartphones max-width  425px ----------------------------------------------------*/
 @media (max-width: 42.6rem){
@@ -312,6 +334,10 @@ a h4{
     font-size: 1.6rem;
   }
   
+  nav{
+    height:fit-content;
+  }
+
   nav, nav ul{
     width: 20rem;
     box-sizing: border-box;
@@ -342,45 +368,33 @@ a h4{
   main{
     min-width: 20rem;
     max-width: 42.5rem;
-    margin: 3.4rem auto;
+    margin:0;
 
     text-align: center;
 
+  }
+
+  section{
+    margin: 0 auto;
   }
 
   #block{
     margin: 0 auto;
-    width: 20rem;
+    width: 100%;
     height: 20rem;
     text-align: center;
   }
 
-  
-  main  img{
-    position: relative;
-    left: 2rem;
-    height: 8rem; /* de 13 virou 8*/
+  #details{
+    height: 25rem;
+    background-color: var(--cor-padrao);
   }
-  section a{
-    position: absolute;
-    left: 17rem;
-    top: 1.5rem;
-    z-index: 0;
-    padding: 0.2rem;
-    padding-left: 3rem;
-  
-    height: 8rem;
-    width: 8rem;
-  
-    border-radius: 0 2rem 2rem 0;
-  
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 900;
-    text-align: start;
-    line-height: 12px;
-  
-    color:var(--cor-constraste-1);
+
+  #details a{
+    height: 25rem;
+  }
+  main  img{
+    height: 8rem; /* de 13 virou 8*/
   }
 
   a h4{
@@ -437,8 +451,7 @@ a h4{
   
   nav{
     width: 50rem;
-    height: 15rem;
-
+    height:fit-content;
   }
   
   ul li {
@@ -453,8 +466,7 @@ a h4{
     flex-direction: column;
   
   }
-  
-  
+
   #part1, #part2{
     display: flex;
     flex-direction: row;
@@ -465,40 +477,40 @@ a h4{
   }
   
   section{
-    position: relative;
     display: flex;
     flex-direction: row;
-  }
-  
-  section a{
-    
-    position: relative;
-
-    left: 15rem;
 
     margin: 0 auto;
-    height: 9rem;
+  }
+  
+  #details{
+    height: fit-content;
+    background-color: var(--cor-padrao);
+    border-radius: 0 2rem 0 2rem;
+  }
+
+  #details a{
+    margin: 0 auto;
+    height: fit-content;
     width: 20rem;
   }
 
   a img{
     height: 13rem;
-    position: absolute;
-    left: -21rem;
-    top: -3.5rem;
   }
-
 
 }
 
-
-
-
-@media (min-width: 1023px){
+@media (min-width: 1028px){
 
   #App{
     max-width: 1000px;
     padding: 0;
+  }
+
+  header img{
+    width: 25rem;
+    height: 25rem;
   }
 
   #App nav {
@@ -538,30 +550,37 @@ a h4{
   }
 
   section {
+    margin: 0 auto;
     height: 60rem;
     width: 60rem;
   }
   #block{
-    height: 60rem;
-    width: 60rem;
+    height: fit-content;
+    width: fit-content;
+
+    align-items: center;
+
+    margin: 0 auto;
   }
 
   a  img{
     height: 15rem;
-    position: absolute;
-    top: -4rem;
-    left: -25rem;
+    width: 15rem;
+
+  }
+  #details{
+    height: fit-content;
+    background-color: var(--cor-padrao);
+    padding: 1rem;
+
+    border-radius:  0 2rem 2rem 0;
   }
 
-  section #block a{
-    display: block;
-    position: relative;
-
-    left: 15rem;
-
+  #details a{
     margin: 0 auto;
-    height: 9rem;
+    height: 20rem;
     width: 20rem;
+    
   }
 
 }
