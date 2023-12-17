@@ -245,11 +245,12 @@ a h4{
 }
 /*-------------------------------------------------Smartphones max-width  425px ----------------------------------------------------*/
 @media (max-width: 42.6rem){
-
   body{
-    width: 1;
-    margin: 0 auto;
+   font-size: 1.4rem;
+   margin-top: 0;
+   margin: 0 auto;
   }
+
   #App{
     width: 25rem;
     padding: 0.7rem 0.9rem;
@@ -348,13 +349,9 @@ a h4{
   }
 
   #block{
-    position: absolute;
-    top: 9rem;
-    left: -3.5rem;
     margin: 0 auto;
     width: 20rem;
     height: 20rem;
-
     text-align: center;
   }
 
