@@ -403,7 +403,7 @@ a h4{
   }
 }
 /*-------------------------------------------------tablets  width  768px ----------------------------------------------------*/
-@media (min-width: 70rem){
+@media (max-width: 70rem){
   #App{
     display: flex;
     flex-direction: column;
