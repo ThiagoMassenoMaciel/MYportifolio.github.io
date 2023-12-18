@@ -296,7 +296,7 @@ LINHA 5   RESTO DO TEXTO
         TABLET E DESKTOP CONTINUA BUGADOS
 
         QUE PARADA DIFICIL MEW
-    FORAM 2 HORAS SEGUIDAS PARA APRENDER ISTO 
+    FORAM 3 HORAS SEGUIDAS PARA APRENDER ISTO 
     ERRO 
         quando eu coloco a tela de smartphone aparece as divs da screen tablet / desktop 
         usei max-width para as media queries 
