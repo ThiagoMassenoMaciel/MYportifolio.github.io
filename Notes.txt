@@ -282,9 +282,6 @@ LINHA 5   RESTO DO TEXTO
                     }
 
 
-
-
-
 17 DEZ 
     TIREI TODOS ATIUBUTO CSS position e tentar posicionar os elementos usando display flex
 
@@ -299,7 +296,52 @@ LINHA 5   RESTO DO TEXTO
         TABLET E DESKTOP CONTINUA BUGADOS
 
         QUE PARADA DIFICIL MEW
+    FORAM 2 HORAS SEGUIDAS PARA APRENDER ISTO 
+    ERRO 
+        quando eu coloco a tela de smartphone aparece as divs da screen tablet / desktop 
+        usei max-width para as media queries 
 
-   
+        ordem de css das media queries foram 
+        max width - celular
+        max width - celular maior
+        max width - tablet
+        max width - desktop 
+
+        a ultima coisa editada no css vai modificar todas as screens menores ou igual a 1024px 
+        para ficar no modelo desktop, por isso mesmo a tela mobile aparecerá como se fosse desktop
+        max width - modifica a tela para ficar de um jeito, todas as screen menores e ou iguais 
+    SOLUCAO
+        min width - modifica todas as telas maiores ou igual , para ficar de um jeito .
+
+        APARTIR DA TAMANHO DA SCREEN DO TABLET É QUE EU VOU MUDAR  
+        max width - celular
+        max width - celular maior
+        min width - tablet
+        max width - desktop
+            ISSO QUER DIZER QUE AS TELAS menores que a do tablet vão ficar de outro jeito , diferente 
+            do jeito para o tablet
+
+        APARTIR DA TAMANHO DA SCREEN DO DESKTOP É QUE EU VOU MUDAR  
+        max width - celular
+        max width - celular maior
+        min width - tablet
+        MIN width - desktop
+            ISSO QUER DIZER QUE AS TELAS menores que a do DESKTOP vão ficar de outro jeito , diferente 
+            do jeito para o desktop
+    DUVIDAS 
+        PQ NO MEU DEV TOOLS ELE N MOSTRA O CÓDIGO IGUAL O QUE EU ESCREVI NO ARQUIVO ? CACHE DO NAVEGADOR ? 
+        POIS ELE N ATUALIZA QUANDO EU MUDO MEU CÓDIGO NO ARQUIVO DO PROJETO
+                isso aconteceu pois herdou do stilo css que n ta ne media querie 
+                SOLUCAO 
+                    RECORTAR O PEDAÇO que esta sendo herdado para as medias queries 
+    APRENDIZADO 
+        quanto estiver mudando alguma coisa na media querie e não estiver mudando 
+        é porque eu devo mudar aquele stilo definido fora de todas as medias queries 
+        O CORRETO É SOMENTE COLOCAR ESTILO DENTRO DAS MEDIAS QUERIES 
+        SE TIVER ALGUM ESTILO DEFINIDO FORA DAS MEDIAS QUERIES, NÃO VAI PRIORIZAR O QUE TEM DENTRO DAS MEDIAS QUERIES
+    resolvi tirando estilo fora do media queries e deixando so o que tem no media queries
+    
+    UM NOVO ERRO , misteriosamente a imageM da screen TABLET FICOU COM O TAMNAHO DESPROPORCIONAL 
+
 Ainda falta fazer o VERSÃO DESKTOP  e colocar um negócio para baixar o curriculo assim que a pessoa entrar no site 
 FALTA PINTAR de cor igual do meu curriculo 

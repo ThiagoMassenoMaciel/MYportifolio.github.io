@@ -112,7 +112,7 @@ header img{
 
 nav{
   width: 50rem;
-  height: 15rem;
+  height: fit-content;
 
   margin: 0 auto;
 
@@ -186,8 +186,14 @@ section{
 }
 
 #details{
-  height: 25rem;
+  height: fit-content;
   background-color: var(--cor-padrao);
+
+  box-sizing: border-box;
+  padding: 1rem;
+
+  border-radius: 0 2rem 2rem 0; 
+
 }
 
 
@@ -199,6 +205,15 @@ section{
 #block{
   display: flex;
   flex-direction: row;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+#block img{
+  border: 2px solid var(--cor-padrao);
+  border-radius: 2rem;
+  max-height: 21rem;
 }
 
 section #block a{
@@ -207,17 +222,6 @@ section #block a{
   width: 20rem;
 }
 
-header  img, #block  img{
-  border: 2px solid var(--cor-padrao);
-  height: 13rem;
-}
-
-header  img{
-  border-radius: 50%;
-} 
-#block  img{
-  border-radius: 2rem;
-}
 
 a h4{
   font-weight: 400;
@@ -242,6 +246,18 @@ a h4{
     margin: 0;
   }
 
+  header  img, #block  img{
+    border: 2px solid var(--cor-padrao);
+    height: 13rem;
+  }
+  
+  header  img{
+    border-radius: 50%;
+  } 
+  #block  img{
+    border-radius: 2rem;
+  }
+  
   #block{
     flex-direction: column;
     margin: 0 auto;
@@ -299,12 +315,22 @@ a h4{
 
   header img{
     margin: 0 auto;
-    
     width: 18rem;
-    height: 18rem;
-
     text-align: center;
   }
+
+  header  img, #block  img{
+    border: 2px solid var(--cor-padrao);
+    height: 18rem;
+  }
+  
+  header  img{
+    border-radius: 50%;
+  } 
+  #block  img{
+    border-radius: 2rem;
+  }
+  
 
   .Description{
     align-items: center;
@@ -403,7 +429,7 @@ a h4{
   }
 }
 /*-------------------------------------------------tablets  width  768px ----------------------------------------------------*/
-@media (max-width: 70rem){
+@media ( (min-width: 70rem ) and (max-width: 1023px)){
   #App{
     display: flex;
     flex-direction: column;
@@ -420,12 +446,18 @@ a h4{
     flex-direction: column;
   }
   
-  header img{
-    margin: 0 auto;
-
-    width: 21.2rem;
+  header  img{
+    border: 2px solid var(--cor-padrao);
+    border-radius: 50%;
     height: 21.2rem;
-  
+    margin: 0 auto;
+    width: 21.2rem;
+  } 
+
+  #block  img{
+    border: 2px solid var(--cor-padrao);
+    border-radius: 2rem;
+    width: 20rem;
   }
   
   .Description h1{
@@ -447,7 +479,7 @@ a h4{
   
   nav{
     width: 50rem;
-    height:fit-content;
+    height:21.6rem;
   }
   
   ul li {
@@ -497,7 +529,7 @@ a h4{
 
 }
 
-@media (max-width: 10.24rem){
+@media ( min-width: 1024px){
 
   #App{
     max-width: 1000px;
@@ -506,7 +538,20 @@ a h4{
 
   header img{
     width: 25rem;
+  }
+
+  header  img, #block  img{
+    border: 2px solid var(--cor-padrao);
+
+  }
+  
+  header  img{
+    border-radius: 50%;
     height: 25rem;
+  } 
+  #block  img{
+    border-radius: 2rem;
+    height: 15rem;
   }
 
   #App nav {
@@ -559,11 +604,6 @@ a h4{
     margin: 0 auto;
   }
 
-  a  img{
-    height: 15rem;
-    width: 15rem;
-
-  }
   #details{
     height: fit-content;
     background-color: var(--cor-padrao);
