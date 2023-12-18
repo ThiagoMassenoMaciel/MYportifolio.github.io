@@ -407,11 +407,7 @@ a h4{
   #App{
     display: flex;
     flex-direction: column;
-
-    max-width: 60rem;
-  
-    width: 100vw;
-
+    
     max-width: 60rem;
     width: 100vw;
     height: 73.5rem;
@@ -501,7 +497,7 @@ a h4{
 
 }
 
-@media (min-width: 10.24rem){
+@media (max-width: 10.24rem){
 
   #App{
     max-width: 1000px;
