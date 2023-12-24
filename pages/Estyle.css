@@ -48,13 +48,14 @@ header{
   text-align: center;
   align-items: center;
 
+  justify-content: space-evenly;
+
   border-radius: 0 20rem 20rem 0;
 
   margin-bottom: 0;
   margin-top: 0;
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 header a{
@@ -70,9 +71,6 @@ header a{
   font-weight: 900;
   text-decoration: none;
 
-  position: fixed;
-  left: 1rem;
-  top: 1rem;
   z-index: 2;
 }
 
@@ -82,7 +80,11 @@ header > a > i{
 
 header h1{
   margin: 0 auto;
-  width: 13.2rem;
+  width: 12rem;
+}
+
+header .centralizar{
+  width: 6rem;
 }
 
 
@@ -141,29 +143,32 @@ section img{
   header{
     gap: 0px;
     margin-bottom: 2rem;
-    padding: 2rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2rem 1rem 2rem 1rem;
 
-    justify-content:space-evenly;
+    justify-content:space-around;
 
   }
 
   header h1{
     padding: 0;
-    width: 13.2rem;
+    width: 12rem;
     margin: 0 auto;
-    position: relative;
+ 
     z-index: 1;
   }
 
   header a {
-    position: fixed;
-    left: 1rem;
-    top: 1rem;
     z-index: 2;
   }
-  
+
+  header .centralizar{
+    width: 6rem;
+  }
+
+  header h1{
+    width: 12rem;
+  }
+
   section img{
     width: 10rem;
     height: 10rem;

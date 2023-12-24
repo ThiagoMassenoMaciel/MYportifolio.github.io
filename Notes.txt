@@ -345,3 +345,17 @@ LINHA 5   RESTO DO TEXTO
 
 Ainda falta fazer o VERSÃO DESKTOP  e colocar um negócio para baixar o curriculo assim que a pessoa entrar no site 
 FALTA PINTAR de cor igual do meu curriculo 
+
+dia 24 dezembro      1h 35 minutos 
+
+  ajeitando os cabeçalhos 
+
+  Posicionar o titulo do cabeçalho e o botão de voltar 
+    criar um nova div ocupando espaço dentro do header como terceiro conteudo 
+    e centralizar o conteudo dentro de header como justify-content um espaço igual entre os 3 conteúdos 
+
+        tira o position fixed de tudo que tem dentro do header 
+        ter uma div como um terceiro conteúdo dentro do header com a largura definida igual da largura do botão 
+        diminui a largura do h1 para ficar somente do tamanho do texto
+        para telas maiores de 426px coloque um space evelyn
+        para telas menores de 426px coloque um space around 

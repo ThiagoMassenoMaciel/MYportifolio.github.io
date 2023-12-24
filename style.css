@@ -428,6 +428,22 @@ a h4{
     font-size: 1rem;
   }
 }
+
+@media ( (min-width: 4.7rem ) and (max-width: 699px)){
+
+  #details{
+    height: fit-content;
+  }
+
+  #block{
+    box-sizing: border-box;
+  }
+
+  #block img{
+    height: 15rem;
+  }
+}
+
 /*-------------------------------------------------tablets  width  768px ----------------------------------------------------*/
 @media ( (min-width: 70rem ) and (max-width: 1023px)){
   #App{

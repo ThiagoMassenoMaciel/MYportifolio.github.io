@@ -50,6 +50,8 @@ header{
   text-align: center;
   align-items: center;
 
+  justify-content: space-evenly;
+
   border-radius: 0 0 20rem 0;
 
   margin-bottom: 0;
@@ -69,9 +71,10 @@ header a{
   font-weight: 900;
   text-decoration: none;
 
-  position: fixed;
+  /*position: fixed;
   left: 1rem;
   top: 1rem;
+  */
   z-index: 2;
 }
 
@@ -80,11 +83,19 @@ header > a > i{
 }
 
 header h1{
-  position: relative;
+/*  position: relative;*/
   margin: 0 auto;
+  width: 12rem;
   padding: 2rem;
   z-index: 1;
 }
+
+header .centralizar{
+  color:transparent;
+  width: 6rem;
+
+}
+
 
 section{
   margin-top: 3.3rem;
@@ -253,9 +264,9 @@ width: 20rem;
 /*Escolhi tirar o header de dentro da div#App */
   header{
     gap: 0px;
-    padding: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
 
-    justify-content:space-evenly;
+    justify-content:space-around;
 
   }
 
@@ -263,15 +274,22 @@ width: 20rem;
     padding: 0;
     width: 8rem;
     margin: 0;
-    position: relative;
+
     z-index: 1;
   }
 
   header a {
-    position: fixed;
+ 
     left: 1rem;
     top: 1rem;
     z-index: 2;
+  }
+
+  
+  header .centralizar{
+    color:transparent;
+    width: 6rem;
+
   }
   
   section{
