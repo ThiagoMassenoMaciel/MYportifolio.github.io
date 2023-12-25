@@ -1,10 +1,6 @@
 # Meu Portifolio
 # Version 1.0
-
-<video width="420" height="340" controls>
-      <source src="https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/df8c5fd9-574a-48c8-aa12-22ae5f456047" type="video/ogg">
-</video>
-
+https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/df8c5fd9-574a-48c8-aa12-22ae5f456047
 ## Link do projeto [aqui](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
 
 <p align = center>
