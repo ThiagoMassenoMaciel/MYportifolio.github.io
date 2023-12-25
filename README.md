@@ -4,7 +4,7 @@ https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/d
 ## Link do projeto [aqui](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
 
 <p align = center>
-      <img width="100px" src="https://cdn.dribbble.com/users/2653319/screenshots/6813714/figma_logo_animation.gif"/>
+      <img width="400px" src="https://cdn.dribbble.com/users/2653319/screenshots/6813714/figma_logo_animation.gif"/>
 </p>
 
 ## Link para o design no figma [aqui](https://www.figma.com/file/HOBma4n9TRH3bXMHDic5if/MY-PORTIFOLIO-(Community)?type=design&node-id=0%3A1&mode=design&t=RQnZIso5WOC2BlWW-1)
