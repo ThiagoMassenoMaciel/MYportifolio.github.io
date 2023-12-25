@@ -1,7 +1,7 @@
 :root{
   font-size: 62.5%;
 
-  --cor-padrao :  #00E6AB;
+  --cor-padrao :  #03989D;
   --cor-constraste-1:  hsl(0, 0%, 100%);
   --cor-constraste-2:  hsl(165, 94%, 86%);
   --cor-constraste-3:  hsl(0, 0%, 0%);
@@ -113,7 +113,7 @@ section article{
 main section img{
   z-index: 1;
 
-  border: 2px solid #00E6AB;
+  border: 2px solid var(--cor-padrao);
   border-radius: 4rem;
 
   width: 17.6rem;
