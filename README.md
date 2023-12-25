@@ -1,7 +1,6 @@
-# MYportifolio.github.io
+# Meu Portifolio
 # Version 1.0
-
-![ToxToxtokenGIF](https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/74c6c19a-7649-40da-b1d6-b949fb94eb03)
+https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/df8c5fd9-574a-48c8-aa12-22ae5f456047
 ## Link over[ here](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
 
 ![IMAGEM DO FIGMA DESIGN](https://cdn.dribbble.com/users/2653319/screenshots/6813714/figma_logo_animation.gif)
