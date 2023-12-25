@@ -1,10 +1,10 @@
 # Meu Portifolio
 # Version 1.0
 https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/df8c5fd9-574a-48c8-aa12-22ae5f456047
-## Link over[ here](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
+## Link do projeto [aqui](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
 
 ![IMAGEM DO FIGMA DESIGN](https://cdn.dribbble.com/users/2653319/screenshots/6813714/figma_logo_animation.gif)
-## Link to my design come over [here](https://www.figma.com/file/HOBma4n9TRH3bXMHDic5if/MY-PORTIFOLIO-(Community)?type=design&node-id=0%3A1&mode=design&t=RQnZIso5WOC2BlWW-1)
+## Link para o design no figma [aqui](https://www.figma.com/file/HOBma4n9TRH3bXMHDic5if/MY-PORTIFOLIO-(Community)?type=design&node-id=0%3A1&mode=design&t=RQnZIso5WOC2BlWW-1)
 
 
       2H 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L :
