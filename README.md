@@ -1,5 +1,5 @@
 ##### fiz deploy deste no `Fleek` (aqui)[https://tmm.on-fleek.app/] n tem tls
-##### farei deploy no vercel app [aqui]()
+##### farei deploy no vercel app [aqui](https://portifolio-iota-two-78.vercel.app/)
 # MYportifolio.github.io
 # Version 1.0
 
