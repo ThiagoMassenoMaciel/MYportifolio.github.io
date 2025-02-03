@@ -1,27 +1,71 @@
-##### fiz deploy deste no `Fleek` (aqui)[https://tmm.on-fleek.app/] n tem tls
-##### farei deploy no vercel app [aqui](https://portifolio-iota-two-78.vercel.app/)
-# MYportifolio.github.io
+###### MYportifolio.github.io
+
+
+# Version 2.0
+![alt text](image-1.png)
+###### a branch desta versão é
+
+
+# Version 2.0 Teacnologias
+###### Html5
+###### Css3
+###### Javascript
+###### React + Vite
+
+## Layouts
+![alt text](image-4.png)
+<video controls src="Laptop L ---------1440-860.mp4" title="Title"></video>
+![alt text](image-5.png)
+<video controls src="Ipad PRO -------- 10240-1366.mp4" title="Title"></video>
+![alt text](image-6.png)
+<video controls src="Ipad MINI ------- 768-1024.mp4" title="Title"></video>
+![alt text](image-7.png)
+<video controls src="Iphone SE-------375-667.mp4" title="Title"></video>
+
+## O que eu Aprendi ?
+###### Para usar o fit-content dentro da width e height precisa ter o box-sizing : content-box
+###### Arquivo `App2.jsx` - testei o meu jeito de fazer um spa ignorando as rotas usando classe componente react
+###### Arquivo `App3.jsx` (App3 - explicação da foto {VIDEO})- para cada li dispara uma função diferente de acordo com a flag que vai ser mudada
+![alt text](<Logica App3.jpg>)
+###### Arquivo `App.jsx` - spa ignorando rotas e usando classe componente do jeito que eu inventei
+
+###### Antes de começar a programar definir os requisitos do jeito que eu quero que apareça ou não apareça na tela depois que o usuário clicar e ou quais reações na tela vai acontecer depois do click
+
+###### Se uma div não tem `display:flex` , seus filho ocuparão toda width disponível, mesmo com o seu tamanho definido.
+###### Se uma div tem o `display:flex` , seus filhos ocuparão o seu tamanho definido.
+
+###### Selecionar a maioria dos elementos nemos aquele com atributo específico
+```
+section h2:not(#h2){
+  color: var(--cor-constraste-1);
+  background-color: var(--cor-padrao);
+
+  border-radius: 2rem;
+
+  padding: 1rem;
+}
+```
+###### este seleciona todos os h2 dentro da div section menos aquele h2 com o id `h2`
+![alt text](image-3.png)
+##### para ter este resultado
+
+# React + Vite
+
+
 # Version 1.0
+![alt text](image.png)
+###### a branch desta versão é
+![alt text](image-2.png)
+###### fiz deploy deste no `Fleek` [link](https://tmm.on-fleek.app/) n tem tls
+###### farei deploy no vercel app [aqui](https://portifolio-iota-two-78.vercel.app/)
+###### Veja meu projeto hospedado no github.io [link](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
+###### Para ver o figma deste projeto [link](https://www.figma.com/file/HOBma4n9TRH3bXMHDic5if/MY-PORTIFOLIO-(Community)?type=design&node-id=0%3A1&mode=design&t=RQnZIso5WOC2BlWW-1)
 
-![ToxToxtokenGIF](https://github.com/ThiagoMassenoMaciel/MYportifolio.github.io/assets/107934374/74c6c19a-7649-40da-b1d6-b949fb94eb03)
-## Link over[ here](https://thiagomassenomaciel.github.io/MYportifolio.github.io/)
 
-![IMAGEM DO FIGMA DESIGN](https://cdn.dribbble.com/users/2653319/screenshots/6813714/figma_logo_animation.gif)
-## Link to my design come over [here](https://www.figma.com/file/HOBma4n9TRH3bXMHDic5if/MY-PORTIFOLIO-(Community)?type=design&node-id=0%3A1&mode=design&t=RQnZIso5WOC2BlWW-1)
-
-
-      2H 💻Construido e concertado o suporte para dispositivo responsivo  mobile ▶️S ▶️M ▶️L :
-        ▶️MOBILE S 320px 
-        ▶️MOBILE M 375px
-        ▶️MOBILE L 425px
-      
-      7' ajeitando outras  coisas 
-      
-      26' 💻Construido e concertado o suporte para dispositivo responsivo  maior ou do mesmo tamanho que um tablet  ▶️ > 767px :
-        ▶️Tablet     768px 
-        ▶️Laptop     1024px
-        ▶️Laptop L   1440px
-        ▶️4k         2560px
+# Version 1.0 Teacnologias
+###### Html5
+###### Css3 + bootstrap icons
+###### Javascript
 
 ###### O jeito que ajeitei as screens SMARTPHONES foi colocar o minimo de tela no dev tools  320 e terminei até todos html com limite de pixel 320px aparecerem normal na viewport que estou concertando e com rem 
     reconsiderei todas as telas menores que 425px    ----> limite máximo da tela smartphone 

@@ -1,0 +1,136 @@
+:root {
+
+  font-size: 62.5%;
+
+  --color:#ffffff;
+  --color1:#000000;
+  --bgcolor1: #1DC7FA;
+
+  --cor-constraste-1:  hsl(0, 0%, 100%);
+  --cor-constraste-2:  hsl(165, 94%, 86%);
+
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.6rem;
+}
+
+#section{
+  padding: 30px;
+  height: 170px;
+  width: fit-content;
+}
+
+
+#title_skill #border{
+
+  box-sizing:content-box;
+
+  position: relative;
+  left: 3.5rem;
+  width : fit-content;
+  height  : fit-content ;
+
+  border: 3px solid var(--bgcolor1);
+  border-radius: 0 4rem 0 4rem;
+
+  padding: 20px;
+  z-index: 2;
+
+  background-color: var(--cor-constraste-1);
+
+
+}
+
+#section #title_skill{
+  box-sizing: content-box;
+  width : fit-content;
+  height : fit-content;
+  z-index: 3;
+  background-color: black;
+  color: var(--cor-constraste-1);
+  border-radius: 4rem 0 4rem 0;
+  padding: 2rem;
+
+  text-align : end ;
+
+  background-color: var(--bgcolor1);
+
+  
+}
+
+#border #textoSHORT{
+
+  margin: 10px ;
+
+  text-align: center;
+  font-size: 2rem;
+
+  height : 40px;
+  width   : fit-content;
+
+
+  box-sizing: content-box;
+
+  z-index: 3;
+  color: var(--bgcolor1);
+}
+
+@media (max-width: 42.5rem){
+
+  #title_skill #border{
+    box-sizing:content-box;
+
+    position: relative;
+    left: 3.5rem;
+    width : fit-content;
+    height  : fit-content ;
+    border-radius: 0 3rem 0 3rem;
+  }
+
+  #section #title_skill{
+    box-sizing: content-box;
+    width : fit-content;
+    height : fit-content;
+
+    z-index: 3;
+
+    color: var(--cor-constraste-1);
+    border-radius: 3rem 0 3rem 0;
+    padding: 2rem;
+    background-color: var(--bgcolor1);
+  }
+
+  #border #textoSHORT{
+
+    height :6.5rem;
+    width   : fit-content;
+    box-sizing:content-box;
+
+  
+    margin: 0 auto ;
+    padding-top: 1rem;
+  
+    text-align: center;
+  
+    border-radius: 3rem 0 3rem 0;
+
+  
+    z-index: 3;
+    color: var(--bgcolor1);
+  }
+
+  #section  #border.b3{
+    top: -7rem;
+    width : 18rem;
+  }
+
+  #section #textoSHORT.t3{
+    top: 0.9rem;
+    width : 14rem;
+    height: 6rem;
+  }
+}
