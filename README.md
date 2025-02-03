@@ -2,7 +2,8 @@
 
 
 # Meu Portifólio Version 2.0
-![alt text](image-1.png)
+#### veja o portifólio clicando [aqui](https://m-yportifolio-github-io.vercel.app/)
+![image](https://github.com/user-attachments/assets/7cb36591-e866-4d30-8c61-54c76901b20c)
 ###### a branch desta versão é
 ![image](https://github.com/user-attachments/assets/e9840902-508b-4672-bb4e-845031ff9eb3)
 
