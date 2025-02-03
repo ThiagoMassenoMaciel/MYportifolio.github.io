@@ -1,9 +1,10 @@
 ###### MYportifolio.github.io
 
 
-# Version 2.0
+# Meu Portifólio Version 2.0
 ![alt text](image-1.png)
 ###### a branch desta versão é
+![image](https://github.com/user-attachments/assets/e9840902-508b-4672-bb4e-845031ff9eb3)
 
 
 # Version 2.0 Teacnologias
